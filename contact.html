@@ -16,6 +16,12 @@
     <h3>Contact me with the following information</h3>
     <table>
         <tr>
+            <td><label for="uname">Username: </label>&nbsp;</td>
+            <td>
+                <input type="text" id="uname" name="name" required size="20" pattern="[a-z]{4,8}"
+                    title="4 to 8 lowercase letters" required ><br><br></td>
+        </tr>
+        <tr>
             <td>
                 <form action="mailto:se.simreteab.mekbib@gmail.com" method="POST" enctype="utf-8">
                     <label for="name">First Name: </label>&nbsp;
@@ -23,6 +29,7 @@
             <td>
                 <input type="text" name="fName" id="fName" required><br><br></td>
         </tr>
+        
         <tr>
             <td><label for="name">Last Name: </label>&nbsp; </td>
             <td>
