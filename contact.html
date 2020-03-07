@@ -15,59 +15,71 @@
 <body>
     <h3>Contact me with the following information</h3>
     <table>
-        <tr>
-            <td><label for="uname">Username: </label>&nbsp;</td>
-            <td>
-                <input type="text" id="uname" name="name" required size="20" pattern="[a-z]{4,8}"
-                    title="4 to 8 lowercase letters" required ><br><br></td>
-        </tr>
-        <tr>
-            <td>
-                <form action="mailto:se.simreteab.mekbib@gmail.com" method="POST" enctype="utf-8">
-                    <label for="name">First Name: </label>&nbsp;
-            </td>
-            <td>
-                <input type="text" name="fName" id="fName" required><br><br></td>
-        </tr>
-        
-        <tr>
-            <td><label for="name">Last Name: </label>&nbsp; </td>
-            <td>
-                <input type="text" name="lName" id="fName" required><br><br></td>
-        </tr>
-        <tr>
-            <td><label for="email">Email: </label>&nbsp; </td>
-            <td>
-                <input type="email" name="email" id="email" required><br><br></td>
-        </tr>
-        <tr>
-            <td>
-                <label for="phoneNumber">Phone Number: </label>&nbsp;</td>
-            <td>
-                <input type="tel" id="tel" name="tel" required><br><br></td>
-        </tr>
-        <tr>
-            <td><label for="country">Country</label>&nbsp;</td>
-            <td>
-                <select id="simple" name="simple" required>
-                    <option>Ertira</option>
-                    <option selected>Ethiopia</option>
-                    <option>Kenya</option>
-                    <option>Egypt</option>
-                </select><br><br></td>
-        </tr>
-        <tr>
-            <td>
-                <label for="age">Age: </label>&nbsp;</td>
-            <td>
-                <input type="number" name="age" id="age" min="1" max="200" step="1" required><br><br></td>
+        <form action="mailto:se.simreteab.mekbib@gmail.com" method="POST" enctype="utf-8">
 
-        </tr>
-        <tr>
-            <td><label for="color">Favorite Color</label>&nbsp;</td>
-            <td><input type="color" name="color" id="color"><br><br>
-            </td>
-        </tr>
+            <tr>
+                <td><label for="uname">Username: </label>&nbsp;</td>
+                <td>
+                    <input type="text" id="uname" name="name" required size="20" pattern="[a-z]{4,8}"
+                        title="4 to 8 lowercase letters" aria-required="true"><br><br></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">First Name: </label>&nbsp;
+                </td>
+                <td>
+                    <input type="text" name="fName" id="fName" maxlength="32"
+
+                    pattern="[A-Z][a-z]*" title="first name only contain letters, start with capital letter and not exceed from 32" required ><br><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="name">Last Name: </label>&nbsp; </td>
+                <td>
+                    <input type="text" name="lName" id="fName" maxlength="32" pattern="[A-Z][a-z]*" title="last name only contain letters, start with capital letter and not exceed from 32" required ><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email: </label>&nbsp; </td>
+                <td>
+                    <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                    title="someone@something.something" required ><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="pwd">Password:</label></td>
+                <td>
+                    <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phoneNumber">Phone Number: </label>&nbsp;</td>
+                <td>
+                    <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{6}" title="123-456-325098"
+                        required><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label>&nbsp;</td>
+                <td>
+                    <select id="simple" name="simple" required>
+                        <option>Ertira</option>
+                        <option selected>Ethiopia</option>
+                        <option>Kenya</option>
+                        <option>Egypt</option>
+                    </select><br><br></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age: </label>&nbsp;</td>
+                <td>
+                    <input type="number" name="age" id="age" min="1" max="200" step="1" required><br><br></td>
+
+            </tr>
+            <tr>
+                <td><label for="color">Favorite Color</label>&nbsp;</td>
+                <td><input type="color" name="color" id="color"><br><br>
+                </td>
+            </tr>
 
     </table><br>
     Leave Your Comment here ..<br><br>
