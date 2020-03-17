@@ -1,0 +1,28 @@
+.hr{
+    border-bottom: 0.2px black solid;
+    border-top: 0.2px black solid; 
+    clear: both;
+    margin-top: 20px;
+    padding: 5px;
+}
+#im{
+    float: left;
+    margin: 30px;
+}
+#tex{
+    /* float: right; */
+    padding-top: 50px;
+    padding-right: 50px;
+    position: relative;
+    margin-left: 10px;
+}
+
+
+.blo{
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+#clear{
+    clear: both;
+}
