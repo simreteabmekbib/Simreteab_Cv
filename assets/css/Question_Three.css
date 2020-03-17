@@ -2,8 +2,9 @@
 
 .armenia{
     padding: 0px;
-    margin: 1.6%px;
     width: 30%;
+    margin: 1.6%;
+float: left;
 }
 #ar1{
     background-color: red;
@@ -17,14 +18,38 @@
 }
 #ar3{
     background-color: sandybrown;
-    border: burlywood solid;
+    /* border: burlywood solid; */
     height: 80px;
 }
 body{
+    background-color: rgb(225,225,200,0.3);
     margin: 1.6%;
     /* float: left; */
 }
 .name{
     padding-top: 5px;
     text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.austria{padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+float: left;
+}
+#au1{
+    background-color: red;
+    border: red solid;
+    height: 80px; 
+}
+#au2{
+    background-color: white;
+    border: white solid;
+    height: 80px;
+}
+#au3{
+    background-color: red;
+    border: red solid;
+    height: 80px;
 }
