@@ -83,7 +83,7 @@ body{
 #ja1{
     background-color: white;
     border:white solid;
-    height: 240px;
+    height: 252px;
 }
 #ja2{
     height: 160px;
@@ -103,7 +103,7 @@ body{
 #ba1{
     background-color: #005b00;
     border: #005b00 solid;
-    height: 240px;
+    height: 252px;
 }
 #ba2{
     height: 160px;
@@ -111,6 +111,37 @@ body{
     background-color: red;
     border-radius: 80px;
     border: red solid;
-    margin: 10% 10% 50% 25%;
+    margin: 12% 12% 50% 25%;
+    position: relative;
+}
+.niger{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#ni1{
+    background-color: rgb(225,90,30);
+    border: rgb(225,90,30) solid;
+    height: 80px; 
+}
+#ni2{
+    background-color: white;
+    border: white solid;
+    height: 80px; 
+}
+#ni3{
+    background-color: green;
+    border: green solid;
+    height: 80px; 
+}
+#ni4{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 35px;
+    border: red solid;
+    margin: auto;
+    margin-top: 2px;
     position: relative;
 }
