@@ -48,7 +48,7 @@ header
 
     position: fixed;
     top: 0;
-   /* width: 98%; */
+   width: 98%;
    background-color : rgba(125,125,125,0.7); 
 
 }
@@ -91,33 +91,33 @@ padding: 5px;
     padding-top: 30px;
 }
 .position{
-    /* width: 100%; */
+    width: 100%;
     height: auto;
     padding: 5%;
-    /* position: relative; */
+    position: relative;
 
 }
 
 .contact{
     float: left;
-    /* width: 30%; */
+    width: 30%;
 }
 .mapouter{
     float: right;
-    /* width: 30%; */
+    width: 30%;
     margin-right: 1%;
-    /* margin-bottom: 5%; */
+    margin-bottom: 5%;
 
 }
 .hr{
     border-bottom: 0.2px black solid;
     border-top: 0.2px black solid;
 }
-/* input[type="submit"]{
+input[type="submit"]{
     height: 40px;
     display: block;
     margin-top: 20px;
     padding: 5px;
-    width: 62%; 
+    width: 62%;
     font-size: 20px;
-} */
+}
