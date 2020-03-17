@@ -1,4 +1,12 @@
-
+.header{
+    /* text-transform: uppercase; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
 
 .armenia{
     padding: 0px;
@@ -22,7 +30,7 @@ float: left;
     height: 80px;
 }
 body{
-    background-color: rgb(225,200,200,0.3);
+    background-color: rgba(182, 159, 173, 0.3);
     margin: 1.6%;
     /* float: left; */
 }
@@ -166,7 +174,7 @@ body{
 #ma3{
     width: 33.3%;
     height: 252px;
-    background-color: rgb(161, 17, 17);
+    background-color: red;
     float: left;
 }
 .peru{
@@ -178,7 +186,7 @@ body{
 #pe1{
     width: 33.3%;
     height: 252px;
-    background-color: rgb(161, 17, 17);
+    background-color: red;
     float: left;
 }
 #pe2{
@@ -190,7 +198,7 @@ body{
 #pe3{
     width: 33.3%;
     height: 252px;
-    background-color: rgb(161, 17, 17);
+    background-color: red;
     float: left;
 }
 .nigeria{
@@ -228,14 +236,61 @@ body{
     border: rgb(161, 17, 17) solid;
     height: 252px;
 }
-#vi2{
-    /* content: '⭐️';
-    font-size: 20px;
+#vi2::before{
+    content: '★';
+    font-size: 1062.5%;
     text-align: center;
     color: yellow;
-    position: absolute;
-    background-color: yellow;
-    width: 60px;
-    height: 60px;
-    z-index: 1; */
+    position: relative;
+    
+}
+.senegal{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#se1{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(29, 161, 17);
+    float: left;
+}
+#se2{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(221, 225, 17);
+    float: left; 
+}
+#se3{
+    width: 33.3%;
+    height: 252px;
+    background-color: red;
+    float: left;
+}
+#se4::before{
+    content: '★';
+    font-size: 937.5%;
+    text-align: center;
+    color: green;
+    position: relative;
+}
+.somalia{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#so1{
+    background-color: rgb(85, 85, 238);
+    border: rgb(85, 85, 238) solid;
+    height: 252px;
+}
+#so2::before{
+    content: '★';
+    font-size: 1062.5%;
+    text-align: center;
+    color: white;
+    position: relative;
+    
 }
