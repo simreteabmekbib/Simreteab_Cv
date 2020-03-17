@@ -2,6 +2,8 @@
 body{
 
     background-color: skyblue;
+    border: 10px lightgray solid;
+    margin: 10px;
  }
  header
  {
@@ -25,11 +27,6 @@ article {
     font-style: italic;
     font-size: 15px; 
 text-transform: uppercase;}
-body{
-    border: 10px lightgray solid;
-    margin: 10px;
-
-}
 nav > ul > li{
 
     display: inline-block;
@@ -58,19 +55,6 @@ header
 img
 {
     float: left;
-    border-radius: 100%;          // making cicular border around
-    border-style: hidden;
-    width: 250px;
-    height: 250px;
-    margin: 0px 15px 0px 3px;
-}
-#clear
-{
-    clear: left;
-}
-img
-{
-    float: left;
     border-radius: 100%;          
     border-style: hidden;
     width: 250px;
@@ -80,4 +64,19 @@ img
 #clear
 {
     clear: left;
+}
+
+.form > label
+{
+  float: left;
+  clear: right;
+}
+
+.form > input
+{
+  float: right;
+  clear: right;
+}
+#caps{
+    text-transform: uppercase;
 }
