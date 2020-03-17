@@ -169,3 +169,73 @@ body{
     background-color: rgb(161, 17, 17);
     float: left;
 }
+.peru{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#pe1{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(161, 17, 17);
+    float: left;
+}
+#pe2{
+    width: 33.3%;
+    height: 252px;
+    background-color: white;
+    float: left; 
+}
+#pe3{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(161, 17, 17);
+    float: left;
+}
+.nigeria{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#ng1{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(29, 161, 17);
+    float: left;
+}
+#ng2{
+    width: 33.3%;
+    height: 252px;
+    background-color: white;
+    float: left; 
+}
+#ng3{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(29, 161, 17);
+    float: left;
+}
+.vietnam{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#vi1{
+    background-color: rgb(161, 17, 17);
+    border: rgb(161, 17, 17) solid;
+    height: 252px;
+}
+#vi2{
+    /* content: '⭐️';
+    font-size: 20px;
+    text-align: center;
+    color: yellow;
+    position: absolute;
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    z-index: 1; */
+}
