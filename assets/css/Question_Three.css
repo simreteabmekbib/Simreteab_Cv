@@ -75,3 +75,42 @@ body{
     border: red solid;
     height: 80px;
 }
+.japan{
+    width: 30%;
+    margin: 1.6%;
+    float: left;
+}
+#ja1{
+    background-color: white;
+    border:white solid;
+    height: 240px;
+}
+#ja2{
+    height: 160px;
+    width: 160px;
+    background-color: red;
+    border-radius: 80px;
+    border: red solid;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+.bangladesh{
+    width: 30%;
+    margin: 1.6%;
+    float: left;
+}
+#ba1{
+    background-color: #005b00;
+    border: #005b00 solid;
+    height: 240px;
+}
+#ba2{
+    height: 160px;
+    width: 160px;
+    background-color: red;
+    border-radius: 80px;
+    border: red solid;
+    margin: 10% 10% 50% 25%;
+    position: relative;
+}
