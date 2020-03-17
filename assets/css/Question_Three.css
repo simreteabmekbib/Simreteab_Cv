@@ -1,0 +1,30 @@
+
+
+.armenia{
+    padding: 0px;
+    margin: 1.6%px;
+    width: 30%;
+}
+#ar1{
+    background-color: red;
+    border: red solid;
+    height: 80px;
+}
+#ar2{
+    background-color: blue;
+    border: blue solid;
+    height: 80px;
+}
+#ar3{
+    background-color: sandybrown;
+    border: burlywood solid;
+    height: 80px;
+}
+body{
+    margin: 1.6%;
+    /* float: left; */
+}
+.name{
+    padding-top: 5px;
+    text-align: center;
+}
