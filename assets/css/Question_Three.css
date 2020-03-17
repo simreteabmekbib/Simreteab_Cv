@@ -145,3 +145,27 @@ body{
     margin-top: 2px;
     position: relative;
 }
+.mali{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#ma1{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(29, 161, 17);
+    float: left;
+}
+#ma2{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(221, 225, 17);
+    float: left; 
+}
+#ma3{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(161, 17, 17);
+    float: left;
+}
