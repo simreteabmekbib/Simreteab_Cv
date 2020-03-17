@@ -22,7 +22,7 @@ float: left;
     height: 80px;
 }
 body{
-    background-color: rgb(225,225,200,0.3);
+    background-color: rgb(225,200,200,0.3);
     margin: 1.6%;
     /* float: left; */
 }
@@ -33,10 +33,11 @@ body{
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
-.austria{padding: 0px;
+.austria{
+    padding: 0px;
     width: 30%;
     margin: 1.6%;
-float: left;
+    float: left;
 }
 #au1{
     background-color: red;
@@ -49,6 +50,27 @@ float: left;
     height: 80px;
 }
 #au3{
+    background-color: red;
+    border: red solid;
+    height: 80px;
+}
+.russia{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left;
+}
+#ru1{
+    background-color: white;
+    border: white solid;
+    height: 80px; 
+}
+#ru2{
+    background-color:blue;
+    border: blue solid;
+    height: 80px;
+}
+#ru3{
     background-color: red;
     border: red solid;
     height: 80px;
