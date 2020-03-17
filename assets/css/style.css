@@ -2,7 +2,7 @@
 body{
 
     background-color: skyblue;
-    border: 10px lightgray solid;
+    /* border: 10px black solid; */
     margin: 10px;
  }
  header
@@ -48,7 +48,7 @@ header
 
     position: fixed;
     top: 0;
-   width: 98%;
+   /* width: 98%; */
    background-color : rgba(125,125,125,0.7); 
 
 }
@@ -68,15 +68,56 @@ img
 
 .form > label
 {
+margin-left: 30px;
+margin-top: 10px;
+padding: 5px;
   float: left;
   clear: right;
 }
 
 .form > input
 {
+  /* margin-right: 900px;  */
+  margin-top: 10px;
+  padding: 5px; 
   float: right;
   clear: right;
 }
-#caps{
-    text-transform: uppercase;
+#tarea{
+    display: block;
+    margin-left: 30px;
+    clear: both; 
+    margin-top: 30px;
+    padding-top: 30px;
 }
+.position{
+    /* width: 100%; */
+    height: auto;
+    padding: 5%;
+    /* position: relative; */
+
+}
+
+.contact{
+    float: left;
+    /* width: 30%; */
+}
+.mapouter{
+    float: right;
+    /* width: 30%; */
+    margin-right: 1%;
+    /* margin-bottom: 5%; */
+
+}
+/* .hr{
+    border-bottom: 0.2px black solid;
+    border-top: 0.2px black solid;
+} */
+/* input[type="submit"]{
+    height: 40px;
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    width: 62%; 
+    font-size: 20px;
+} */
