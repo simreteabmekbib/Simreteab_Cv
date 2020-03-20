@@ -7,17 +7,22 @@ div.img {
 #caps{
 text-transform: uppercase;
 font-size: 2rem;
-border-bottom: 4px black solid;
-padding-bottom: 6px;}
+border-bottom: 4px white solid;
+padding-bottom: 6px;
+text-align: center;
+}
 
 h2{
 clear: both;
 text-align: start;
+margin-left: 30px;
 }
 body{
 font-family: 'Times New Roman', Times, serif;
 font-size: 20px;
 font-style: italic;
+background-color: rgb(198, 198, 211,0.3);
+
 }
 
 div.img img {
@@ -28,4 +33,61 @@ div.img img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+#blocks{
+    background-color: white;
+    
+}
+.bottom_border {
+    border-bottom: rgb(218, 220, 221) 2px solid;
+    clear: left;
+    padding-bottom: 5%;
+}
+footer{
+    height: 3%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer > ul > li {
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: darkslategray;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+
+footer > ul > li > a:hover {
+    color: rgb(0, 0, 225);
+}
+nav{
+    background-color: #333;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+nav li{
+    padding: 5px 20px;
+}
+nav a:hover{
+    background-color: #555;
+}
+@media screen and (min-width: 768px){
+
 }
