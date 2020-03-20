@@ -55,7 +55,7 @@ float: left;
 body{
     background-color: rgba(182, 159, 173, 0.3);
     /* margin-left: 1.6%; */
-    margin-top: 0;
+    margin: 8px;
     /* padding-top: 100px; */
     /* float: left; */
 }
@@ -350,10 +350,9 @@ nav a:hover{
     background-color: #555;
 }
 @media screen and (max-width: 768px){
-   
-   nav ul li a{
+
+   nav ul{
     display: block;
-     flex-direction: column;
     }
 }
 
