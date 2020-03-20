@@ -39,9 +39,9 @@ body{
     margin: 0 20px 0 0;
 }
 
-h2{
+/* h2{
     font-size: 17px;
-}
+} */
 nav{
     background-color: #333;
 }
@@ -63,8 +63,14 @@ nav li{
 nav a:hover{
     background-color: #555;
 }
-@media screen and (min-width: 768px){
-
+@media screen and (max-width: 768px){
+article{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+display: block;
+}
 }
 
 footer{
@@ -115,5 +121,14 @@ article {
 #blocks{
     background-color: white;
     margin: 20px 60px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
     
