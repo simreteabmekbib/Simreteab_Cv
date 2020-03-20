@@ -19,8 +19,16 @@ nav li{
 nav a:hover{
     background-color: #555;
 }
-@media screen and (min-width: 768px){
-
+@media screen and (max-width: 768px){
+    article{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    }
+    nav ul{
+    display: block;
+    }
 }
 
 footer{
