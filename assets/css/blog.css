@@ -5,7 +5,14 @@
   
   body{
     background: #eee;
+    text-align: justify;
+
     /* color: #333; */
+  }
+  li{
+    text-align: justify;
+margin-left: 20px;
+margin-right: 50px;
   }
   
   .wrapper{
@@ -13,7 +20,9 @@
     max-width: 95%;
     margin: 0 auto;
   }
-  
+  .date{
+text-align: end;
+  }
   
   
   /* nav{
@@ -99,13 +108,13 @@ nav a:hover{
   
   }  */
 #blocks{
-    margin: 20px;
+    margin: 1% 20%;
     
 }
 article{
     background: white;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 20px 40px;
     box-sizing: border-box;
 }
 article h2{
@@ -147,4 +156,12 @@ footer > ul > li > a {
 
 footer > ul > li > a:hover {
     color: rgb(0, 0, 225);
+}
+article p{
+  display: block;
+  margin: 20px 50px;
+}
+article p a {
+  text-decoration: none;
+font-weight: bold;
 }
