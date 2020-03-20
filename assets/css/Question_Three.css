@@ -1,11 +1,34 @@
-.header{
+nav > ul > li{
+
+    display: inline-block;
+    font-size: 20px;
+}
+/* removing the underline  */
+nav > ul > li > a 
+{
+    text-decoration: none;
+    float: left;
+    text-align-last: right;
+    padding: 10px 10px; 
+   /* font-size: 25px; */
+}
+header
+{
+    left: 0px;
+    margin-top: 0px;
+width: 100%;
+}
+.hea{
     /* text-transform: uppercase; */
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 60px;
     font-style: oblique;
     text-align: center;
     margin: 20px;
     padding: 20px;
+    /* background-color: white; */
+    margin-bottom: 80px;
+    box-sizing: border-box;
 }
 
 .armenia{
@@ -31,7 +54,9 @@ float: left;
 }
 body{
     background-color: rgba(182, 159, 173, 0.3);
-    margin: 1.6%;
+    /* margin-left: 1.6%; */
+    margin-top: 0;
+    /* padding-top: 100px; */
     /* float: left; */
 }
 .name{
@@ -293,4 +318,71 @@ body{
     color: white;
     position: relative;
     
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+nav{
+    background-color: #333;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+nav li{
+    padding: 10px 10px;
+}
+nav a:hover{
+    background-color: #555;
+}
+@media screen and (max-width: 768px){
+   
+   nav ul li a{
+    display: block;
+     flex-direction: column;
+    }
+}
+
+footer{
+    height: 3%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer > ul > li {
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: darkslategray;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+
+footer > ul > li > a:hover {
+    color: rgb(0, 0, 225);
+}
+.bottom_border {
+    border-bottom: rgb(218, 220, 221) 2px solid;
+    clear: left;
+    padding-bottom: 5%;
 }

@@ -43,3 +43,66 @@ tr:nth-of-type(3) td {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  
+  nav{
+    background-color: #333;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+nav li{
+    padding: 5px 20px;
+}
+nav a:hover{
+    background-color: #555;
+}
+@media screen and (max-width: 768px){
+   #board{
+        margin: auto;
+        position: relative;
+        padding: 0;
+        box-sizing: content-box;
+    }
+    nav ul{
+    display: block;
+    }
+}
+
+footer{
+    height: 3%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer > ul > li {
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: darkslategray;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+
+footer > ul > li > a:hover {
+    color: rgb(0, 0, 225);
+}
+.bottom_border {
+    border-bottom: rgb(218, 220, 221) 2px solid;
+    clear: left;
+    padding-bottom: 5%;
+}
