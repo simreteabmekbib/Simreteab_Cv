@@ -3,7 +3,6 @@ nav > ul > li{
     display: inline-block;
     font-size: 20px;
 }
-/* removing the underline  */
 nav > ul > li > a 
 {
     text-decoration: none;
@@ -16,7 +15,7 @@ header
 {
     left: 0px;
     margin-top: 0px;
-width: 100%;
+    width: 100%;
 }
 .hea{
     /* text-transform: uppercase; */
@@ -332,7 +331,7 @@ nav{
     background-color: #333;
 }
 nav ul{
-    list-style-type: none;
+    list-style-type: none; 
     padding: 0;
     display: flex;
     justify-content: flex-end;
@@ -353,7 +352,78 @@ nav a:hover{
 
    nav ul{
     display: block;
+    clear: left;
     }
+    .armenia{
+        padding: 0px;
+        width: 90%;
+        margin: 10%;
+    }
+    .austria{
+        padding: 0px;
+        width: 90%;
+        margin: 10%;
+    }
+    
+    .russia{
+        padding: 0px;
+        width: 90%;
+        margin: 10%;
+    }
+    
+    .japan{
+        width: 90%;
+        margin: 10%;
+    }
+    
+    .bangladesh{
+        width: 90%;
+        margin: 10%;
+    }
+    
+    .niger{
+        padding: 0px;
+        width: 90%;
+        margin: 10%;
+    }
+    
+    .mali{
+        padding: 0px;
+        width: 90%;
+        margin: 10%;
+    }
+    
+    .peru{
+        padding: 0px;
+        width: 90%;
+        margin: 10%;
+    }
+    
+    .nigeria{
+        padding: 0px;
+        width: 90%;
+        margin: 10%;
+    }
+    
+    .vietnam{
+        padding: 0px;
+        width: 90%;
+        margin: 10%;
+        float: left; 
+    }
+    
+    .senegal{
+        padding: 0px;
+        width: 90%;
+        margin: 10%;
+    }
+    
+    .somalia{
+        padding: 0px;
+        width: 90%;
+        margin: 10%;
+    }
+    
 }
 
 footer{

@@ -107,4 +107,9 @@ nav a:hover{
     nav ul{
     display: block;
     }
+    div.img {
+        margin: 10%;
+        width: 90%;
+        height: 400px;
+    }
 }
