@@ -143,8 +143,14 @@ nav li{
 nav a:hover{
     background-color: #555;
 }
-@media screen and (min-width: 768px){
-
+@media screen and (max-width: 768px){
+    article{
+        margin: 0;
+        padding: 0;
+    }
+    nav ul{
+    display: block;
+    }
 }
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -274,12 +280,12 @@ nav > ul > li > a.active {
     border-style: hidden;
     width: 250px;
     height:250px;
-    margin: 0px 15px 0px 3px;
+    margin: 10px 15px 10px 3px;
 }
 
-#clear {
+/* #clear {
     clear: left
-}
+} */
 
 .bottom_border {
     border-bottom: rgb(218, 220, 221) 2px solid;
@@ -312,8 +318,10 @@ footer > ul > li > a {
 footer > ul > li > a:hover {
     color: rgb(0, 0, 225);
 }
-h3 {margin: 5% 0 1% 2%;
-    text-align: center;
+#p1 {margin-bottom: 60px; 
+ } 
+h1{
+    margin-top: 60px;
 }
 #blocks{
     margin: 0 20px;
